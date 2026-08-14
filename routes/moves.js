@@ -9,7 +9,7 @@ import {
   createMove,
   updateMove,
   deleteMove
-} from "../controllers/movesController.js";
+} from "../controllers/moveController.js";
 
 const router = express.Router();
 const upload = multer({ storage: multer.memoryStorage() });
